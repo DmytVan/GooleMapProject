@@ -129,7 +129,6 @@ class Map extends React.Component {
         const service = new window.google.maps.places.PlacesService(this.map);
         service.nearbySearch(request, (results, status) => {
             if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-                console.log(results);
                 this.props.setFoundPlaces(results, type);
                 this.addPlacesMarkers(type)
             }
