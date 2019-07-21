@@ -1,0 +1,24 @@
+a {
+    cursor: pointer;
+    color: blue;
+}
+
+.authorizationField {
+    width: 70%;
+}
+
+input[type="submit"] {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.authorizationForm{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authorizationLabel {
+    display: inline-block;
+    width: 20%;
+}
